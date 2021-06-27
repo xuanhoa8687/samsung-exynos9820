@@ -28,9 +28,8 @@ jobs:
                        model=${{ matrix.model }} \
                        name="VN-Kernel-v4.5"     \
                        toolchain=$TOOLCHAIN      \
-                       os_patch_level="2099-12"                   \
                        +magisk                   \
-                       +always_enforce                   \
+                       +always_permit                   \
                        +nohardening              \
                        +fp_boost              \
                        +ttl                      \
